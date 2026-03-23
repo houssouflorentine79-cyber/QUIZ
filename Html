@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genius Quiz Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="lock-screen">
+        <h1>ACCÈS<span>PRO</span></h1>
+        <p>Entrez le code secret pour jouer</p>
+        <input type="text" id="pass-key" placeholder="Code secret" maxlength="4">
+        <br>
+        <button id="activate" onclick="checkKey()">ACTIVER</button>
+    </div>
+
+    <div id="game-screen" style="display:none;">
+        <h1>GENIUS<span>QUIZ</span></h1>
+        <div id="question-container">
+            <h2 id="q-text">Chargement...</h2>
+            <div id="options"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

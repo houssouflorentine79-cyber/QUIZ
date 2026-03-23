@@ -1,0 +1,7 @@
+body { background: #000; color: #d4af37; font-family: 'Segoe UI', sans-serif; text-align: center; margin: 0; display: flex; align-items: center; justify-content: center; height: 100vh; }
+h1 span { color: white; }
+.btn-option { display: block; width: 80%; margin: 10px auto; padding: 15px; background: #111; color: white; border: 1px solid #d4af37; border-radius: 10px; font-size: 1.1rem; cursor: pointer; }
+.btn-option:hover { background: #d4af37; color: black; }
+input { padding: 15px; border-radius: 10px; border: 1px solid #d4af37; background: #111; color: white; width: 60%; margin-bottom: 20px; font-size: 1.2rem; text-align: center; }
+button#activate { background: #d4af37; color: black; border: none; padding: 15px 30px; border-radius: 10px; font-weight: bold; cursor: pointer; }
+#game-screen { width: 100%; max-width: 400px; }
